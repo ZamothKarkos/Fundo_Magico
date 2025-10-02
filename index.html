@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana do Zero ao programador congtratado - Fundo Mágico </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Fundo Mágico</h1>
+        <p class="subtitle">Transforme suas idéias em backgrounds incríveis com o poder da I.A. Descreva o que você
+            imagina e veja a magia acontecer!</p>
+    </header>
+    <main class="container">
+        <section class="card main-card">
+            <h2>decreva o background que você deseja</h2>
+            <form class="form-group">
+                <textarea class="form-group" id="description"
+                    placeholder="EX: um gradiente azul suave que vai para um azul escuro" rows="5"></textarea>
+                <button id="generate-btn" class="btn-magic">
+                    <span id="btn-text">Gerar Background Mágico</span>
+                </button>
+            </form>
+        </section>
+
+        <section id="preview-section" class="preview-card">
+            <div class="card code-card">
+                <h3>Código HTML</h3>
+                <pre id="html-code" class="code-block"></pre>
+            </div>
+        </section>
+
+        <section id="code-output" class="code-grid">
+            <div class="card code-card">
+                <h3>Código CSS</h3>
+                <pre id="CSS-code" class="code-block"></pre>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
